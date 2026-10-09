@@ -7,3 +7,5 @@ def contact(request):
     return HttpResponse("<i>This is the contact page</i>")
 def show_task(request):
     return HttpResponse("This is the show_task page")
+def show_specific_task(request,id):
+    return HttpResponse("This is the specific task page.")
